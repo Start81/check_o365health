@@ -1,0 +1,6 @@
+severity = 3
+[-InputOutput::RequireBriefOpen]
+[-Modules::ProhibitExcessMainComplexity]
+[InputOutput::RequireCheckedSyscalls]
+functions = :builtins
+exclude_functions = print
